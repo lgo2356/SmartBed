@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@drawable/baby_toy">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorTransparentBlack">
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switchOnOff"
+            android:layout_gravity="right"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"/>
+        <!--android:track="@drawable/switch_track_selector"-->
+        <!--android:thumb="@drawable/switch_thumb_selector" />-->
+
+        <!--<Button-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/testSend"-->
+        <!--android:text="TEST"/>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <LinearLayout
+                android:id="@+id/colorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/lightIcon01"/>
+
+                <SeekBar
+                    style="@style/CustomSeekBar"
+                    android:id="@+id/horizontalSeekbar"
+                    android:layout_width="250dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="bottom"
+                    android:max="99"
+                    android:progress="1"
+                    android:progressDrawable="@drawable/seekbar_spec" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/lightIcon02"/>
+
+            </LinearLayout>
+
+            <!--<com.smartbed.dples.smartbed.VerticalSeekbar-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="180dp"-->
+            <!--android:id="@+id/vSeekbar"-->
+            <!--android:max="100"-->
+            <!--android:progress="0"-->
+            <!--android:layout_marginLeft="40dp"-->
+            <!--android:progressDrawable="@drawable/seekbar_spec"/>-->
+
+        </LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>

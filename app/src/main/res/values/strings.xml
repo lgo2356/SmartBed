@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SmartBed</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="loading_message">블루투스 연결하는 중입니다.\n잠시만 기다려주세요.</string>
+</resources>

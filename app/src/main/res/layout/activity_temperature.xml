@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    android:background="@color/colorBlack">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTemp"
+        android:text="36.5"
+        android:textSize="45sp"
+        android:textColor="@color/colorWhite"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:id="@+id/tempAlarmList"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnAlarm"
+        android:text="새로운 알람 설정"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

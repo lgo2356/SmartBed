@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/monitoringLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|bottom"
+    android:background="@drawable/baby_settings"
+    android:paddingBottom="40dp"
+    android:paddingLeft="80dp"
+    android:paddingRight="80dp">
+
+    <Button
+        android:id="@+id/btnLED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_background"
+        android:layout_marginBottom="15dp"
+        android:text="조명"
+        android:textSize="17sp"
+        android:textColor="@color/colorBlack"/>
+
+    <Button
+        android:id="@+id/btnMonitoring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_background"
+        android:layout_marginBottom="15dp"
+        android:text="모니터링"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_button_background"
+        android:text="설정"
+        android:textSize="17sp"/>
+
+</LinearLayout>
