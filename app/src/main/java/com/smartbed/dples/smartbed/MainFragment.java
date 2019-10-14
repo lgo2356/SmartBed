@@ -70,6 +70,8 @@ public class MainFragment extends Fragment {
         btnMonitoring.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+//                Intent intent = new Intent(context, MonitoringActivity.class);
+//                startActivity(intent);
                 if(BluetoothObject.getInstance().isConnectionState()) {
                     Intent intent = new Intent(context, MonitoringActivity.class);
                     startActivity(intent);
