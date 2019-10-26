@@ -19,14 +19,6 @@
             android:layout_gravity="right"
             android:layout_marginTop="50dp"
             android:layout_marginRight="5dp"/>
-        <!--android:track="@drawable/switch_track_selector"-->
-        <!--android:thumb="@drawable/switch_thumb_selector" />-->
-
-        <!--<Button-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:id="@+id/testSend"-->
-        <!--android:text="TEST"/>-->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -69,19 +61,7 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical"
                     android:id="@+id/lightIcon02"/>
-
             </LinearLayout>
-
-            <!--<com.smartbed.dples.smartbed.VerticalSeekbar-->
-            <!--android:layout_width="40dp"-->
-            <!--android:layout_height="180dp"-->
-            <!--android:id="@+id/vSeekbar"-->
-            <!--android:max="100"-->
-            <!--android:progress="0"-->
-            <!--android:layout_marginLeft="40dp"-->
-            <!--android:progressDrawable="@drawable/seekbar_spec"/>-->
-
         </LinearLayout>
-
     </FrameLayout>
 </LinearLayout>

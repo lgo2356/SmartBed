@@ -36,5 +36,4 @@
         android:background="@drawable/main_button_background"
         android:text="설정"
         android:textSize="17sp"/>
-
 </LinearLayout>
